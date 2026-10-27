@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - NASA APOD</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!--remixicon-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <style>
+    .about__text {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      text-align: justify;
+      margin-bottom: 1.2rem;
+    }
+
+    .about__link {
+      color: #ffc371;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <h1 class="logo">
+      <img src="logo.png" alt="NASA APOD Logo"> NASA APOD
+    </h1>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="#">About</a>
+      <a href="#">Gallery</a>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main class="container">
+    <h2 class="title">About</h2>
+    <p class="date"></p>
+
+    <p class="about__text">
+      NASA APOD is a gallery website that displays the
+      <a class="about__link" href="https://apod.nasa.gov" target="_blank" rel="noopener">Astronomy Picture of the Day</a>
+      from NASA's official API. Every day, NASA publishes a different image or
+      photograph of our universe, along with a brief explanation written by a
+      professional astronomer.
+    </p>
+
+    <p class="about__text">
+      This website is built with plain HTML, CSS, and JavaScript. It fetches
+      the data directly from the
+      <a class="about__link" href="https://api.nasa.gov" target="_blank" rel="noopener">NASA Open APIs</a>
+      and shows the picture, the date, the explanation, and the image credit.
+    </p>
+
+    <p class="about__text">
+      Made with love by Nayla Argia.
+    </p>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__social">
+      <a href="https://youtube.com/@naylaargia" target="_blank" aria-label="YouTube">
+        <i class="ri-youtube-fill"></i>
+      </a>
+
+      <a href="https://www.instagram.com/naylargia" target="_blank" aria-label="Instagram">
+        <i class="ri-instagram-fill"></i>
+      </a>
+
+      <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+        <i class="ri-linkedin-fill"></i>
+      </a>
+    </div>
+
+    <p class="footer__copy">
+      © All Rights Reserved By Nayla Argia
+    </p>
+  </footer>
+
+</body>
+</html>
